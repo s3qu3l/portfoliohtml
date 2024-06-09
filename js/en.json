@@ -1,0 +1,21 @@
+{
+  "header": {
+    "siteTitle": "Kacper Święch | Main",
+    "portfolio": "Portfolio",
+    "name": "Kacper Święch"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "services": "Services & Shop"
+  },
+  "intro": {
+    "heading": "About Me",
+    "text": "My adventure with electronics began as a child, when my basic toys were tin, resin, and a transformer soldering iron. Today, I repair devices such as smartphones, desktop computers, laptops, and TVs, and in the near future I plan to expand my activities to other devices, including creating server rooms from scratch.",
+    "buttonText": "See 4sure.pl on FB"
+  },
+  "footer": {
+    "text": "4sure.pl&copy; 2024"
+  }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Kacper Święch | Call Me</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles3.css" rel="stylesheet" />
+    <style>
+        .navbar-nav .nav-item:nth-child(3) .nav-link {
+          color: #e6a756 !important; /* zmiana koloru linku "Kontakt" */
+        }
+      </style>
+      <style>
+        #nav-home .nav-link {
+            color: #ffd500 !important;
+        }
+        .navbar {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: #343a40;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>   
+    </head>
+    <body>
+      <header>
+        <h1 class="site-heading text-center text-faded d-none d-lg-block">
+          <span class="site-heading-upper text-primary mb-3">Kacper Święch</span>
+          <span class="site-heading-lower">Kontakt</span>
+        </h1>
+      </header>
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+        <div class="container">
+          <a
+            class="navbar-brand text-uppercase fw-bold d-lg-none"
+            href="start.html"
+            >Kacper Święch</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li id="nav-home" class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="start.html">Strona Główna</a></li>
+              <li id="nav-about" class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="edu.html">Wykształcenie</a></li>
+              <li id="nav-contact" class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="kontakt.html">Kontakt</a></li>
+              <li id="nav-services" class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="dosw.html">Doświadczenie zawodowe</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="page-section cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="cta-inner bg-faded text-center rounded">
+                        <h2 class="section-heading mb-5">
+                            <span class="section-heading-upper">Zadzwoń do mnie!</span>
+                            <span class="section-heading-lower">Teraz jestem dostępny</span>
+                        </h2>
+                        <p class="address mb-5">
+                            <em>
+                                <strong>Św. Filipa 17</strong>
+                                <br />
+                                31-150 Kraków
+                            </em>
+                        </p>
+                        <p class="mb-0">
+                            <small><em>Zadzwoń do nas</em></small>
+                            <br />
+                            <a href="tel:+48537890120" class="phone-number">537 890 120 - Biuro</a>
+                            <br />
+                            <a href="mailto:biuro@4sure.pl" class="phone-number">biuro@4sure.pl - E-mail</a>
+                        </p>                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section about-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">Kontakt</span>
+                            <span class="section-heading-lower">Skontaktuj się ze mną</span>
+                        </h2>
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Imię i nazwisko</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Imię i nazwisko" required="required" data-validation-required-message="Proszę podać imię i nazwisko." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Adres email</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Adres email" required="required" data-validation-required-message="Proszę podać adres email." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Wiadomość</label>
+                                    <textarea class="form-control" id="message" rows="5placeholder="Wiadomość" required="required" data-validation-required-message="Proszę wpisać wiadomość."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Wyślij</button></div>
+                        </form>
+                        <div id="error-message" class="text-danger" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-faded text-center py-5">
+        <div class="container">
+            <p class="m-0 small">4sure.pl &copy; 2024</p>        </div>
+      </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var now = new Date();
+            var dayOfWeek = now.getDay(); // 0 dla Niedzieli, 1 dla Poniedziałku, itd.
+            var hour = now.getHours();
+
+            // Tablica z godzinami otwarcia dla poszczególnych dni
+            var openingHours = [
+                { start: 8, end: 16 },  // Poniedziałek - Piątek
+                { start: 8, end: 16 },  // Wtorek
+                { start: 8, end: 16 },  // Środa
+                { start: 8, end: 16 },  // Czwartek
+                { start: 8, end: 16 },  // Piątek
+                { start: 9, end: 13 },  // Sobota
+                { start: 0, end: 0 }    // Niedziela (zakładamy, że zamknięte)
+            ];
+
+            // Sprawdzenie, czy sklep jest otwarty
+            var isOpen = (hour >= openingHours[dayOfWeek].start && hour < openingHours[dayOfWeek].end);
+
+            // Znajdowanie elementu wyświetlającego status otwarcia
+            var openStatusElement = document.querySelector(".section-heading-lower");
+
+            // Aktualizacja tekstu w zależności od statusu otwarcia
+            if (isOpen) {
+                openStatusElement.textContent = "JESTEM DOSTĘPNY!";
+                openStatusElement.classList.remove("text-danger"); // usuwamy klasę text-danger jeśli została dodana wcześniej
+                openStatusElement.classList.add("text-success"); // dodajemy klasę text-success dla poprawnego statusu
+            } else {
+                openStatusElement.textContent = "TERAZ JESTEM NIEDOSTĘPNY";
+                openStatusElement.classList.remove("text-success"); // usuwamy klasę text-success jeśli została dodana wcześniej
+                openStatusElement.classList.add("text-danger"); // dodajemy klasę text-danger dla niepoprawnego statusu
+            }
+
+            // Obsługa formularza kontaktowego
+            var contactForm = document.getElementById("contactForm");
+            var successMessage = document.getElementById("success");
+            var errorMessage = document.getElementById("error-message");
+
+            contactForm.addEventListener("submit", function(event) {
+                event.preventDefault();
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
+
+                // Wysłanie danych do serwera lub inna logika obsługi formularza
+                // Tutaj można dodać kod AJAX lub przekierowanie na stronę potwierdzenia
+
+                // Czyszczenie pól formularza po wysłaniu
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("message").value = "";
+
+                // Wyświetlenie komunikatu sukcesu
+                successMessage.innerHTML = "Dziękuję! Wiadomość zwrotną otrzymasz w przeciągu 48h.";
+                successMessage.style.display = "block";
+                errorMessage.style.display = "none";
+            });
+        });
+    </script>
+</body>
+</html>
+

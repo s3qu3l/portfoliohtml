@@ -1,0 +1,21 @@
+{
+  "header": {
+    "siteTitle": "Kacper Święch | Główna",
+    "portfolio": "Portfolio",
+    "name": "Kacper Święch"
+  },
+  "nav": {
+    "home": "Strona Główna",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "services": "Usługi i Sklep"
+  },
+  "intro": {
+    "heading": "Krótko o mnie",
+    "text": "Przygodę z elektroniką rozpocząłem za dzieciaka, gdy podstawową zabawką była cyna, kalafonia i lutownica transformatorowa. Dziś naprawiam urządzenia takie jak smartfony, komputery stacjonarne, laptopy, czy telewizory, natomiast w niedalekiej przyszłości planuję poszerzyć zakres swoich działań o kolejne urządzenia, czy też tworzenie serwerowni od zera.",
+    "buttonText": "Zobacz 4sure.pl na FB"
+  },
+  "footer": {
+    "text": "4sure.pl&copy; 2024"
+  }
+}
